@@ -1,7 +1,10 @@
 # TKR901
 This code implements a programmer for the TKR901 repeater to tune it to amateur frequencies.
 
-It is an improvement over the original code by Neal Reasoner, KB5ERY, SK. In two ways:
+It is an improvement over the original code by Neal Reasoner, KB5ERY, SK, and some of his code has been included.
+
+There are three improvements:
+
 First, the programming data is precomputed and stored in table, which has five sections:
   1) All amateur frequencies from 927/902 to 928/903 in 12.5 KHz steps. There are no 'holes' in table.
   2) 100 commercial frequencies which match those in the original setup using the switches.
