@@ -17,6 +17,9 @@ First, the programming data is precomputed and stored in table, which has five s
 Second, an allowance has been made for the lock detect pin from the synthesizer to monitor success and reprogram if needed when
 a power black or brownout occurs.
 
+If you have a TKR901 that was converted with a Pi, there is code here to replace the original that uses the same lookup
+table as the PIC to try it out.
+
 73, de VE6VH
 
 
